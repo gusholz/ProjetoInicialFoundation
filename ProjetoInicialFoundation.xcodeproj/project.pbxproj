@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CE4CD02D29BB96A700618A70 /* componente.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE4CD02C29BB96A700618A70 /* componente.swift */; };
+		CE4CD03529BB9A0A00618A70 /* images in Resources */ = {isa = PBXBuildFile; fileRef = CE4CD03429BB9A0A00618A70 /* images */; };
+		CE580E1429B2687700D06BFD /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE580E1329B2687700D06BFD /* ViewModel.swift */; };
 		CEBC3B6D29A0160900E24041 /* ProjetoInicialFoundationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBC3B6C29A0160900E24041 /* ProjetoInicialFoundationApp.swift */; };
 		CEBC3B6F29A0160900E24041 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEBC3B6E29A0160900E24041 /* ContentView.swift */; };
 		CEBC3B7129A0160A00E24041 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEBC3B7029A0160A00E24041 /* Assets.xcassets */; };
@@ -14,6 +17,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CE4CD02C29BB96A700618A70 /* componente.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = componente.swift; sourceTree = "<group>"; };
+		CE4CD03429BB9A0A00618A70 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; name = images; path = Assets.xcassets/images; sourceTree = "<group>"; };
+		CE580E1329B2687700D06BFD /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		CEBC3B6929A0160900E24041 /* ProjetoInicialFoundation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProjetoInicialFoundation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEBC3B6C29A0160900E24041 /* ProjetoInicialFoundationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjetoInicialFoundationApp.swift; sourceTree = "<group>"; };
 		CEBC3B6E29A0160900E24041 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -52,8 +58,11 @@
 			isa = PBXGroup;
 			children = (
 				CEBC3B6C29A0160900E24041 /* ProjetoInicialFoundationApp.swift */,
+				CE580E1329B2687700D06BFD /* ViewModel.swift */,
 				CEBC3B6E29A0160900E24041 /* ContentView.swift */,
+				CE4CD02C29BB96A700618A70 /* componente.swift */,
 				CEBC3B7029A0160A00E24041 /* Assets.xcassets */,
+				CE4CD03429BB9A0A00618A70 /* images */,
 				CEBC3B7229A0160A00E24041 /* Preview Content */,
 			);
 			path = ProjetoInicialFoundation;
@@ -125,6 +134,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE4CD03529BB9A0A00618A70 /* images in Resources */,
 				CEBC3B7429A0160A00E24041 /* Preview Assets.xcassets in Resources */,
 				CEBC3B7129A0160A00E24041 /* Assets.xcassets in Resources */,
 			);
@@ -138,7 +148,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				CEBC3B6F29A0160900E24041 /* ContentView.swift in Sources */,
+				CE580E1429B2687700D06BFD /* ViewModel.swift in Sources */,
 				CEBC3B6D29A0160900E24041 /* ProjetoInicialFoundationApp.swift in Sources */,
+				CE4CD02D29BB96A700618A70 /* componente.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

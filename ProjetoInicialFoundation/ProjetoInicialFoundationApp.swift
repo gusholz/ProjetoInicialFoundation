@@ -13,5 +13,6 @@ struct ProjetoInicialFoundationApp: App {
         WindowGroup {
             ContentView()
         }
+
     }
 }
